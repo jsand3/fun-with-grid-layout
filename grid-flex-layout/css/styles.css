@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	display: grid;
+ 	grid-template-areas: "nav"
+ 						"hero"
+ 						"service"
+ 						"hili"
+ 						"foot";
+	grid-template-columns: 100vw;
+	grid-template-rows: 1fr 100vh 3fr 100vh 2fr;
+}
+ /* Grid Layout */
+ nav {
+ 	grid-area: nav;
+ }
+ .hero {
+ 	grid-area: hero;
+ }
+
+ .service {
+ 	grid-area: service;
+ }
+
+ .highlight {
+ 	grid-area: hili;
+ }
+
+footer {
+	grid-area: foot;
+}
