@@ -30,3 +30,59 @@ body {
 footer {
 	grid-area: foot;
 }
+
+/* General Styling */
+	header {
+		background: linear-gradient(180deg, #f0f8ffb3 40%,#faebd7e6),
+		url(https://picsum.photos/1500/2500?image=957);
+		background-size: cover;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	html {
+		font-family: 'helvetica';
+	}
+
+	/* Nav Styles */
+	nav {
+		background: #302f2f;
+		display: flex;
+		justify-content: space-between;
+	}
+	nav img {
+		width: 70px;
+	}
+	nav .logo {
+	    display: flex;
+	    align-items: center;
+	}
+	nav .header-links {
+	    display: flex;
+	    align-items: center;
+	}
+	.header-links a {
+	    padding: 0 40px;
+	    color: white;
+	    text-decoration: none;
+	}
+
+	/* Service Boxes */
+	.service {
+		display: flex;
+	}
+	.service-box {
+		background: #0075c4;
+	}
+	.service-box:nth-child(even) {
+		background: #124559;
+	}
+
+	/* highlight */
+	.highlight {
+		background: linear-gradient(180deg, #f0f8ff66 40%,#faebd7b3),
+		url(https://picsum.photos/2000/800?image=1023);
+		background-size: cover;
+	}
